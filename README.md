@@ -14,7 +14,7 @@ This application allows your photos to appear as if they were taken with Meta sm
 ## 🚀 Key Features
 
 * **Standalone GUI:** Simple and easy-to-use interface built with Tkinter.
-* **EXIF Injection:** Directly writes the required `Maker` and `Model` tags.
+* **DATA Injection:** Directly writes the required `Maker` and `Model` tags.
 * **Timestamp:** Sets the EXIF capture date/time to the current time of processing.
 * **Save As:** Never modifies the original file; always saves a new, tagged copy.
 * **Zero Dependency (After Compilation):** Once compiled as an EXE, does not require Python to be pre-installed on the user's computer.

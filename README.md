@@ -19,10 +19,30 @@ This application allows your photos to appear as if they were taken with Meta sm
 * **Save As:** Never modifies the original file; always saves a new, tagged copy.
 * **Zero Dependency (After Compilation):** Once compiled as an EXE, does not require Python to be pre-installed on the user's computer.
 
-## 🛠️ Installation
-
-### 1. Requirements
-
-Python 3.x must be installed on your computer.
-
 To install the required libraries, use the provided `requirements.txt` file and run the following command:
+
+# ⚙️ Project Dependencies and Required Libraries
+
+This application relies on minimal but critical Python libraries to perform the Meta Glasses EXIF injection process and provide a powerful graphical user interface (GUI).
+
+The following libraries are **absolutely required** for running the application with its source code (`.py` file) or compiling it with PyInstaller.
+
+## 🚀 List of Main Dependencies
+
+| Library Name | Recommended Version | Role and Importance |
+| :--- | :--- | :--- |
+| **Pillow (PIL)** | `>= 9.0.0` | 🖼️ **Image Processing Engine.** Used to open JPEG files, manage data streams, and save files after EXIF data is written. It forms the basis of image format compatibility. |
+| **piexif** | `Latest Version` | 🏷️ **EXIF Manipulation Expert.** Performs reading, modifying, and rewriting operations on the metadata (EXIF) structure of JPEG files. It is critical for successfully injecting Meta Glasses tags. |
+
+---
+
+## 🛠️ Installation Instructions
+
+To install these dependencies with a single command, please use the `requirements.txt` file located in your project's root directory.
+
+### Terminal Command
+
+Run the following command in your Terminal/Command Prompt window:
+
+```bash
+pip install -r requirements.txt

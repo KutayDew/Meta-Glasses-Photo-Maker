@@ -46,3 +46,6 @@ Run the following command in your Terminal/Command Prompt window:
 
 ```bash
 pip install -r requirements.txt
+```
+## My Contact Information
+[Link](https://www.instagram.com/kutaydew.support) My Instagram Support Account

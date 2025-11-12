@@ -1,31 +1,28 @@
 # 🕶️ Meta-Glasses-Photo-Maker
 
 [![Python Version](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)] (LICENSE)
 
-## ✨ Proje Amacı
+## ✨ Project Purpose
 
-Bu uygulama, herhangi bir JPEG görüntünün **EXIF meta verisini** basitçe değiştirmek için tasarlanmış, bağımsız bir GUI aracıdır.
+This application is a standalone GUI tool designed to simply modify the **EXIF metadata** of any JPEG image.
 
-Instagram veya Facebook gibi platformlar, bir görüntünün meta verisinde belirli kamera üreticisi (`Meta AI`) ve modeli (`Ray-Ban Meta Smart Glasses`) etiketlerini algıladığında, hikayelerde ve gönderilerde otomatik olarak **"Ray-Ban META glasses"** etiketini görüntüler.
+When platforms like Instagram or Facebook detect specific camera manufacturer (`Meta AI`) and model (`Ray-Ban Meta Smart Glasses`) tags in an image's metadata, they automatically display the **“Ray-Ban META glasses”** tag in stories and posts.
 
-Bu uygulama, bu gerekli meta veriyi mevcut fotoğraflarınıza ekleyerek, fotoğraflarınızın Meta akıllı gözlüklerle çekilmiş gibi görünmesini sağlar.
+This application allows your photos to appear as if they were taken with Meta smart glasses by adding this required metadata to your existing photos.
 
-## 🚀 Temel Özellikler
+## 🚀 Key Features
 
-* **Bağımsız GUI:** Tkinter ile oluşturulmuş, basit ve kullanımı kolay arayüz.
-* **EXIF Enjeksiyonu:** Gerekli `Maker` (Üretici) ve `Model` etiketlerini doğrudan yazar.
-* **Zaman Damgası:** EXIF çekim tarihi/saatini, işleme anının güncel zamanına ayarlar.
-* **Farklı Kaydet:** Orijinal dosyayı asla değiştirmez; her zaman etiketlenmiş yeni bir kopyasını kaydeder.
-* **Sıfır Bağımlılık (Derlendikten Sonra):** EXE olarak derlendikten sonra, kullanıcının bilgisayarında önceden Python kurulu olmasını gerektirmez.
+* **Standalone GUI:** Simple and easy-to-use interface built with Tkinter.
+* **EXIF Injection:** Directly writes the required `Maker` and `Model` tags.
+* **Timestamp:** Sets the EXIF capture date/time to the current time of processing.
+* **Save As:** Never modifies the original file; always saves a new, tagged copy.
+* **Zero Dependency (After Compilation):** Once compiled as an EXE, does not require Python to be pre-installed on the user's computer.
 
-## 🛠️ Kurulum
+## 🛠️ Installation
 
-### 1. Gereksinimler
+### 1. Requirements
 
-Bilgisayarınızda Python 3.x kurulu olmalıdır.
+Python 3.x must be installed on your computer.
 
-Gerekli kütüphaneleri yüklemek için, sağlanan `requirements.txt` dosyasını kullanarak aşağıdaki komutu çalıştırın:
-
-```bash
-pip install -r requirements.txt
+To install the required libraries, use the provided `requirements.txt` file and run the following command:

@@ -1,7 +1,7 @@
-# 🕶️ Meta-Glasses-Photo-Maker
-
+[![License](https://raw.githubusercontent.com/KutayDew/Meta-Glasses-Photo-Maker/17014ed46465f50ce2b7bc8e0ffcd7622a9abeb6/icon.svg)](LICENSE)
+# 🕶️ Meta-Glasses-Photo-Maker 
 [![Python Version](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)] (LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ## ✨ Project Purpose
 
